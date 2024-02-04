@@ -5,12 +5,18 @@
   text-align: center;
 }
 
+.spiralism {
+  padding: 5em;
+}
+
 .head {
   font-size: 3em;
+  user-select: none;
 }
 
 .text {
   font-size: 1em;
+  user-select: none;
 }
 
 .logo {
@@ -23,6 +29,23 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #402451);
+}
+
+.button {
+  background-color: #aba0f3;
+  color: #F8F8F9;
+  border-radius: 1em;
+  user-select: none;
+  margin: 1em;
+  height: 2em;
+  line-height: 2em;
+  width: 8em;
+  font-size: 1em;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #A092F1;
 }
 
 @keyframes logo-spin {

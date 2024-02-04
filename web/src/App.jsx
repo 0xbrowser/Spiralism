@@ -1,6 +1,6 @@
-import { useState } from 'react'
 import logo from './assets/logo.png'
 import './App.css'
+import Detect from './components/Detect'
 
 function App() {
   return (
@@ -10,10 +10,11 @@ function App() {
         <div className='head'>
           Spiralism
         </div>
+        <div className='text'>
+          Clear the risk on chain with me.
+        </div>
       </div>
-      <div className='text'>
-        The greatest DApp in the world.
-      </div>
+      <Detect></Detect>
     </>
   )
 }
