@@ -5,12 +5,27 @@
   text-align: center;
 }
 
+.screen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .spiralism {
+  margin-top: 20vh;
   padding: 5em;
 }
 
-.head {
+.h1 {
+  color: #F8F8F9;
   font-size: 3em;
+  user-select: none;
+}
+
+.h3 {
+  color: #F8F8F9;
+  font-size: 1.5em;
   user-select: none;
 }
 

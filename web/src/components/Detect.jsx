@@ -2,7 +2,7 @@ import React from 'react'
 import './detect.css'
 
 const Detect = () => {
-  const [detectButton, setDetectButton] = React.useState("Detect")
+  const [detectButton, setDetectButton] = React.useState("Submit")
 
   function handleSubmit() {
     setDetectButton("Detecting")
