@@ -5,12 +5,58 @@
   text-align: center;
 }
 
-.head {
+.screen {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.spiralism {
+  margin-top: 20vh;
+  padding: 5em;
+}
+
+.h1 {
+  color: #F8F8F9;
   font-size: 3em;
+  user-select: none;
+}
+
+.h3 {
+  color: #F8F8F9;
+  font-size: 1.5em;
+  user-select: none;
 }
 
 .text {
   font-size: 1em;
+  user-select: none;
+}
+
+.row-block {
+  width: 100%;
+  display: flex;
+}
+
+.column-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.left-align {
+  align-content: flex-start;
+  text-align: left;
+}
+
+.right-align {
+  align-content: flex-end;
+  text-align: right;
+}
+
+.wid-80 {
+  width: 80%;
 }
 
 .logo {
@@ -23,6 +69,23 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #402451);
+}
+
+.button {
+  background-color: #aba0f3;
+  color: #F8F8F9;
+  border-radius: 1em;
+  user-select: none;
+  margin: 1em;
+  height: 2em;
+  line-height: 2em;
+  width: 8em;
+  font-size: 1em;
+}
+
+.button:hover {
+  cursor: pointer;
+  background-color: #A092F1;
 }
 
 @keyframes logo-spin {

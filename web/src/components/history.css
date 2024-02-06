@@ -1,0 +1,73 @@
+.history-table {
+    width: 50em;
+    min-height: 3em;
+    margin: 0.5em;
+    border-radius: 1em;
+    border-color: #C7AAD9;
+    border-width: 0.2em;
+    border-style: solid;
+}
+
+.history-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5em;
+}
+
+.select:hover {
+    cursor: pointer;
+    background-color: #686293;
+    border-radius: 1em;
+}
+
+.no-box {
+    flex: 2;
+}
+
+.smt-box {
+    flex: 5;
+}
+
+.t-box {
+    flex: 3;
+}
+
+.dark-background {
+    width: 100vw;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    background-color: rgba(15, 14, 21, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup-block {
+    position: relative;
+    padding: 5em;
+    z-index: 2;
+    width: 50em;
+    height: 30em;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(20, 18, 28, 0.97);
+}
+
+.close-button {
+    user-select: none;
+    width: 3.2em;
+    align-self: flex-end;
+    margin-top: -2em;
+    margin-bottom: 2em;
+}
+
+.close-button:hover {
+    cursor: pointer;
+}
